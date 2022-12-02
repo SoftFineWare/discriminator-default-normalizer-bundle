@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c43b9b8b1273a2fc6930d62f23893015",
+    "content-hash": "af2ef10eb1e313c7c39c8e9e85e628bc",
     "packages": [
         {
             "name": "doctrine/event-manager",
@@ -347,16 +347,16 @@
         },
         {
             "name": "legion112/discriminator-default-normalizer",
-            "version": "0.0.1",
+            "version": "0.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SoftFineWare/discriminator-default-normalizer.git",
-                "reference": "c83ec46d5e4ed8b93c0e195c9cfc538939876202"
+                "reference": "cee96607653136e0916bf512864b135781d016ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SoftFineWare/discriminator-default-normalizer/zipball/c83ec46d5e4ed8b93c0e195c9cfc538939876202",
-                "reference": "c83ec46d5e4ed8b93c0e195c9cfc538939876202",
+                "url": "https://api.github.com/repos/SoftFineWare/discriminator-default-normalizer/zipball/cee96607653136e0916bf512864b135781d016ff",
+                "reference": "cee96607653136e0916bf512864b135781d016ff",
                 "shasum": ""
             },
             "require": {
@@ -385,9 +385,9 @@
             ],
             "support": {
                 "issues": "https://github.com/SoftFineWare/discriminator-default-normalizer/issues",
-                "source": "https://github.com/SoftFineWare/discriminator-default-normalizer/tree/0.0.1"
+                "source": "https://github.com/SoftFineWare/discriminator-default-normalizer/tree/0.0.2"
             },
-            "time": "2022-11-30T16:29:15+00:00"
+            "time": "2022-12-02T09:28:09+00:00"
         },
         {
             "name": "psr/cache",
