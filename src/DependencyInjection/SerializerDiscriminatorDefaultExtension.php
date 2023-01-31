@@ -1,9 +1,10 @@
 <?php
+/** @noinspection PhpUnused */
 declare(strict_types=1);
 
-namespace Legion112\SerializerDiscriminatorDefaultBundle\DependencyInjection;
+namespace SoftFineWare\SerializerDiscriminatorDefaultBundle\DependencyInjection;
 
-use Legion112\SerializerDiscriminatorDefault\DiscriminatorDefaultNormalizer;
+use SoftFineWare\SerializerDiscriminatorDefault\DiscriminatorDefaultNormalizer;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Definition;
 use Symfony\Component\DependencyInjection\Extension\Extension;

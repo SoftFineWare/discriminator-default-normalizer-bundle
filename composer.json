@@ -1,10 +1,10 @@
 {
-    "name": "legion112/discriminator-default-normalizer-bundle",
+    "name": "softfineware/discriminator-default-normalizer-bundle",
     "type": "library",
     "license": "MIT",
     "keywords": ["symfony", "bundle", "serializer"],
     "require": {
-        "legion112/discriminator-default-normalizer": "^0.0.2",
+        "softfineware/discriminator-default-normalizer": "^1",
         "symfony/symfony": "^6.1"
     },
     "require-dev": {
@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Legion112\\SerializerDiscriminatorDefaultBundle\\": "src/"
+            "SoftFineWare\\SerializerDiscriminatorDefaultBundle\\": "src/"
         }
     },
     "autoload-dev": {

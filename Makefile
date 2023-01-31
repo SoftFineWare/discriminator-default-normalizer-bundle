@@ -1,12 +1,12 @@
-repoBase=ghcr.io/legion112/discriminator-default-normalizer/base
-repoCI=ghcr.io/legion112/discriminator-default-normalizer/ci
-repoCIDependency=ghcr.io/legion112/discriminator-default-normalizer/ci/cache
+repoBase=ghcr.io/softfineware/discriminator-default-normalizer-bundle/base
+repoCI=ghcr.io/softfineware/discriminator-default-normalizer-bundle/ci
+repoCIDependency=ghcr.io/softfineware/discriminator-default-normalizer-bundle/ci/cache
 
 #composerLockHash := $(shell #echo whatever)
 HASH:=$(shell md5 -q composer.lock)
 
 github.registry.login:
-	cat secrets.json | jq .CR_PAT -r | docker login ghcr.io -u Legion112 --password-stdin
+	cat secrets.json | jq .CR_PAT -r | docker login ghcr.io -u SoftFineWare --password-stdin
 docker.build.base:
 	docker build . --tag ${repoBase}:${version} -f .docker/Dockerfile.base
 docker.push.base:
