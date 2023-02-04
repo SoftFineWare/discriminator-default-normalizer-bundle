@@ -6,12 +6,15 @@
     </include>
   </coverage>
   <php>
+    <env name="KERNEL_CLASS" value="Tests\Kernel"/>
+    <env name="APP_ENV" value="test" force="true"/>
+    <env name="APP_DEBUG" value="true" force="true"/>
     <ini name="display_errors" value="1"/>
     <ini name="error_reporting" value="-1"/>
   </php>
   <testsuites>
-    <testsuite name="Unit">
-      <directory>tests</directory>
+    <testsuite name="Integration">
+      <directory>tests/Integration</directory>
     </testsuite>
   </testsuites>
 </phpunit>
